@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3A09D1420B4FC5800847585 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A09D1220B4FC5800847585 /* WindowController.swift */; };
+		C3A09D1520B4FC5800847585 /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A09D1320B4FC5800847585 /* WindowController.xib */; };
 		C3DEB77020ABF14E006CEE67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEB76F20ABF14E006CEE67 /* AppDelegate.swift */; };
 		C3DEB77220ABF14E006CEE67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEB77120ABF14E006CEE67 /* ViewController.swift */; };
 		C3DEB77420ABF14F006CEE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DEB77320ABF14F006CEE67 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3A09D1220B4FC5800847585 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		C3A09D1320B4FC5800847585 /* WindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
 		C3DEB76C20ABF14E006CEE67 /* myclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DEB76F20ABF14E006CEE67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3DEB77120ABF14E006CEE67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				C3DEB77520ABF14F006CEE67 /* Main.storyboard */,
 				C3DEB77820ABF14F006CEE67 /* Info.plist */,
 				C3DEB77920ABF14F006CEE67 /* myclock.entitlements */,
+				C3A09D1220B4FC5800847585 /* WindowController.swift */,
+				C3A09D1320B4FC5800847585 /* WindowController.xib */,
 			);
 			path = myclock;
 			sourceTree = "<group>";
@@ -192,13 +198,16 @@
 				TargetAttributes = {
 					C3DEB76B20ABF14E006CEE67 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1010;
 					};
 					C3DEB77D20ABF14F006CEE67 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = C3DEB76B20ABF14E006CEE67;
 					};
 					C3DEB78820ABF14F006CEE67 = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = C3DEB76B20ABF14E006CEE67;
 					};
 				};
@@ -229,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3DEB77420ABF14F006CEE67 /* Assets.xcassets in Resources */,
+				C3A09D1520B4FC5800847585 /* WindowController.xib in Resources */,
 				C3DEB77720ABF14F006CEE67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3DEB77220ABF14E006CEE67 /* ViewController.swift in Sources */,
+				C3A09D1420B4FC5800847585 /* WindowController.swift in Sources */,
 				C3DEB77020ABF14E006CEE67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +433,7 @@
 				CODE_SIGN_ENTITLEMENTS = myclock/myclock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K9VU275FJG;
 				INFOPLIST_FILE = myclock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -429,7 +441,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = slab.myclock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -440,6 +452,7 @@
 				CODE_SIGN_ENTITLEMENTS = myclock/myclock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K9VU275FJG;
 				INFOPLIST_FILE = myclock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,7 +460,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = slab.myclock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -466,7 +479,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = slab.myclockTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myclock.app/Contents/MacOS/myclock";
 			};
 			name = Debug;
@@ -486,7 +499,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = slab.myclockTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myclock.app/Contents/MacOS/myclock";
 			};
 			name = Release;
@@ -505,7 +518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = slab.myclockUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = myclock;
 			};
 			name = Debug;
@@ -524,7 +537,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = slab.myclockUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = myclock;
 			};
 			name = Release;
